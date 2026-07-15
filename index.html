@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
 <head>
 
     <meta charset="UTF-8">
@@ -12,6 +12,7 @@
 
     <link rel="stylesheet"
           href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
 
 </head>
 
@@ -37,7 +38,7 @@
 
         </p>
 
-        <button onclick="showLove()">
+        <button id="openHeart" onclick="showLove()">
 
             ❤️ Open My Heart ❤️
 
@@ -53,39 +54,27 @@
 
     <div class="loveBox">
 
-        <h1>❤️ Welcome My Love ❤️</h1>
+    <h1>❤️ Welcome My Love ❤️</h1>
 
-        <p>
+    <h2>🌸 Naa Muddulaaa Gummaaa 🌸</h2>
 
-            Every heartbeat of mine whispers only one name...
-
-        </p>
-
-        <h2>
-
-            🌸 My Muddulaaa Gummaaa 🌸
-
-        </h2>
-
-        <p>
-
-            My world became beautiful the day you entered it.
-
-            Every smile of yours is my favorite sunrise.
-
-        </p>
-
-    </div>
+    <p id="loveLetter"></p>
 
 </div>
 
-<audio id="bgMusic">
+</div>
+
+<audio id="bgMusic" preload="auto">
 
     <source src="music/love.mpeg"
             type="audio/mpeg">
 
 </audio>
 
+<div id="flowers"></div>
+<div id="hearts"></div>
+<div id="butterflies"></div>
+<div id="cursorGlow"></div>
 <script src="script.js"></script>
 
 </body>
